@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lib-hotdog"
+version = "0.0.42"
+dependencies = []
+requires-python = ">=3.9"
+authors = [
+  {name = "Mariano Sciacco", email = "maxelweb+hotdog@gmail.com"}
+]
+maintainers = [
+  {name = "Mariano Sciacco", email = "maxelweb+hotdog@gmail.com"}
+]
+description = "Hotdog-separated values library for parsing and writing files"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["hotdog", "separated", "valeus"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/beeb89gang/lib-hotdog-sv.git"
